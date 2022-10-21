@@ -915,6 +915,9 @@ C. Components
 /*-------------------------------------------
   -- Block
 -------------------------------------------*/
+.ts-block2{
+    margin-left: 30px;
+}
 
 .ts-block {
     padding-bottom: 5rem;
@@ -926,6 +929,7 @@ C. Components
   }
   */
 }
+
 
 .ts-block-inside {
     padding: 1.25rem;
@@ -1176,7 +1180,7 @@ blockquote h6 {
 }
 
 .btn-sm {
-    font-size: 16px;
+    font-size: .8125rem;
     padding: .375rem 1rem;
 }
 
@@ -2585,6 +2589,14 @@ E. Template Specific Elements
   filter: none !important;
 }
 
+.img-partner{
+    width: 600px;
+}
+
+.img-gris{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+}
 
 
 
@@ -2794,6 +2806,9 @@ E. Template Specific Elements
     .ts-title {
         margin-bottom: 1.875rem;
     }
+    .ts-title2 {
+        margin-bottom: 1.875rem;
+    }
 
     .ts-promo-numbers h2 {
         font-size: 2.25rem;
@@ -2808,10 +2823,17 @@ E. Template Specific Elements
     .ts-title {
         margin-bottom: 3.125rem;
     }
+    .ts-title2 {
+        margin-bottom: 3.125rem;
+    }
 
     .ts-block-inside {
         padding: 2.5rem;
     }
+    .img-partner{
+        height:500px;
+    }
+
 }
 
 @media (min-width: 62rem) {
@@ -2820,7 +2842,10 @@ E. Template Specific Elements
     }
 
     .ts-title {
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
+    }
+    .ts-title2 {
+        margin-bottom: 6rem;
     }
 
     .ts-block-inside {
@@ -2863,6 +2888,9 @@ E. Template Specific Elements
 @media (max-width: 61.9375rem) {
     .ts-card__image {
         height: 15.625rem;
+    }
+    .img-partner{
+        width: 340px;
     }
 }
 
