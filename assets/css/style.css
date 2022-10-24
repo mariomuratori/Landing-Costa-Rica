@@ -85,7 +85,7 @@ A. Basic Styling
 
 body {
     color: #191919;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: .9375rem;
     margin: 0;
@@ -1565,7 +1565,7 @@ body.has-loading-screen.loading-done:after {
     font-weight: 500;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    transition: .3s ease;
+    transition: .1s ease;
 }
 
 .navbar.in {
@@ -1578,7 +1578,7 @@ body.has-loading-screen.loading-done:after {
 }
 
 .navbar .ts-background {
-    transition: 1s ease;
+    transition: 0.1s ease;
 }
 
 [class*="navbar-expand"] .navbar-nav .nav-link {
@@ -2791,6 +2791,11 @@ E. Template Specific Elements
 }
 
 @media (max-width: 35.9375rem) {
+    
+    .ts-block{
+        background-image: url(assets/img/imagenMoov.png);
+    }
+
     h1, .ts-h1 {
         margin-bottom: 1.25rem;
     }
